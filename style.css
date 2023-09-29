@@ -1,0 +1,82 @@
+/* styles.css */
+
+/* Reset some default styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: black;
+    font-family: 'Impact', sans-serif;
+    color: #fff;
+}
+
+header {
+    background-color: #000;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
+
+.nav-links {
+    display: flex;
+    align-items: center;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: #fff;
+    margin: 0 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: 'Arial', sans-serif;
+}
+
+.nav-links img {
+    width: 30px;
+    height: 30px;
+}
+
+.main {
+    text-align: center;
+    padding: 50px;
+}
+
+.home {
+    font-family: 'Impact', sans-serif;
+    color: #000;
+    font-size: 36px;
+}
+
+.skam {
+    color: #fff; /* White color for Skam */
+    font-family: 'Impact', sans-serif; /* Apply Impact font */
+}
+
+.hub {
+    color: #0d0dff; /* Blue color for Hub */
+    font-family: 'Impact', sans-serif; /* Apply Impact font */
+}
+
+.version {
+    color: #00ff00; /* Green color for 2.0 */
+    font-family: 'Impact', sans-serif; /* Apply Impact font */
+}
+
+.description {
+    font-family: 'Lexend', sans-serif;
+    font-size: 18px;
+}
+
+.logo img {
+    width: 500x;
+    height: 500px;
+}
+
+p {
+    padding: 100px;
+}
