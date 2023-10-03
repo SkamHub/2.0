@@ -80,3 +80,54 @@ header {
 p {
     padding: 100px;
 }
+
+
+.widget-container {
+    background: linear-gradient(to bottom, #333, #000);
+    border-radius: 10px;
+    padding: 20px;
+    text-align: center;
+    margin: 10px; /* Adjust margin between widgets as needed */
+}
+
+.widget-banner {
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    max-width: 100%;
+    max-height: 423px; /* Maximum banner size */
+    width: auto;
+    height: auto;
+}
+
+.website-name {
+    font-weight: bold;
+    font-size: 24px;
+    color: #fff;
+}
+
+.website-description {
+    font-size: 16px;
+    color: #ccc;
+    text-align: left;
+}
+
+.visit-button {
+    display: inline-block;
+    padding: 10px 20px;
+    margin-top: 10px;
+    border: 2px solid #00f; /* Slightly brighter button color */
+    border-radius: 5px;
+    color: #00f; /* Slightly brighter button color */
+    text-decoration: none;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.visit-button:hover {
+    background-color: #00f; /* Slightly brighter button color */
+    color: #fff;
+}
+
+.creator-name {
+    font-size: 14px;
+    color: #ccc;
+}
