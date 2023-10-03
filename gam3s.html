@@ -3,91 +3,160 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Website Widget</title>
+    <title>Websites</title>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
-    <style>
-        .widget-container {
-            background: linear-gradient(to bottom, #333, #000);
-            border-radius: 10px;
-            padding: 20px;
-            text-align: center;
-            margin: 10px; /* Adjust margin between widgets as needed */
-        }
-
-        .widget-banner {
-            border-top-left-radius: 10px;
-            border-top-right-radius: 10px;
-            max-width: 100%;
-            max-height: 423px; /* Maximum banner size */
-            width: auto;
-            height: auto;
-        }
-
-        .website-name {
-            font-weight: bold;
-            font-size: 24px;
-            color: #fff;
-        }
-
-        .website-description {
-            font-size: 16px;
-            color: #ccc;
-            text-align: left;
-        }
-
-        .visit-button {
-            display: inline-block;
-            padding: 10px 20px;
-            margin-top: 10px;
-            border: 2px solid #00f; /* Slightly brighter button color */
-            border-radius: 5px;
-            color: #00f; /* Slightly brighter button color */
-            text-decoration: none;
-            transition: background-color 0.3s, color 0.3s;
-        }
-
-        .visit-button:hover {
-            background-color: #00f; /* Slightly brighter button color */
-            color: #fff;
-        }
-
-        .creator-name {
-            font-size: 14px;
-            color: #ccc;
-        }
-    </style>
+    <link rel="icon" href="favicon.ico" type="image/png">
+    <link href="https://fonts.googleapis.com/css2?family=Impact&family=Lexend:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
 </head>
-<body>
-    <div class="container">
-        <div class="row">
-            <!-- Widget 1 -->
-            <div class="col-md-4">
-                <div class="widget-container">
-                    <img src="widget1_banner.jpg" alt="Website Banner" class="widget-banner">
-                    <h2 class="website-name">Website Name 1</h2>
-                    <p class="website-description">
-                        Description of the website goes here. You can provide a brief overview of what the website is about.
-                    </p>
-                    <a href="#" class="visit-button">Visit Website</a>
-                    <p class="creator-name">Created by: Creator Name 1</p>
+<body style="background-color: #000000;">
+    <nav class="navbar navbar-expand-lg fixed-top" style="background-color:black; color:white; black; font-family: 'Lexend', sans-serif; border-radius: 10px; padding-left: 10px; padding-right: 10px; padding-top: 10px;">
+        <a class="navbar-brand" href="index.html">
+            <img src="logo.png" alt="SkamHub Logo" class="logo">
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon btn btn-primary" style="color: blue;"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="index.html">
+                        <img src="home-icon.png" alt="" class="icon">
+                        Home
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="webs1tes.html">
+                        <img src="document-icon.png" alt="" class="icon">
+                        Websites
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="gam3s.html">
+                        <img src="controller-icon.png" alt="" class="icon">
+                        G@m3s
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="about.html">
+                        <img src="question-icon.png" alt="" class="icon">
+                        About
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </nav><br><br><br>
+    <main>
+        <section class="websites">
+            <center><br>
+            <h1><span style="color: white; font-family: 'Impact', sans-serif; font-size: 50px;">Websites</span></h1>
+            <hr width="95%" color="white">
+        </center>
+    <div class="widget-container">
+        <div style="padding-left: 45px; padding-right: 20px;"class="website-list">
+            <!-- Website Entry 1 -->
+            <div style="background-color: #262626; border-radius: 10px; padding-right: 20px;" class="website-entry">
+                <div class="website-details">
+                    <img src="https://www.windows93.net/" alt="Website Favicon" class="favicon" style="width: 48px; height: 48px; padding-left: 10px; padding-top: 10px; padding-right: 20px;">
+                    <h2 style="color: white; padding-left: 10px; padding-right: 10px;" class="website-name">Windows 93</h2>
+                    <p style="color: grey; padding-left: 10px; padding-right: 10px;" class="website-description">Experience windows 93 in the web, complete with g@m3s</p>
                 </div>
-            </div>
+                <div style="padding-left: 10px; padding-bottom: 10px; class="website-button">
+                    <a href="https://www.windows93.net/" class="btn btn-outline-primary">Visit Website</a>
+                </div>
+            </div><br>
+    
+            <!-- Website Entry 2 -->
+            <div style="background-color: #262626; border-radius: 10px; padding-right: 20px; padding-right: 20px;" class="website-entry">
+                <div class="website-details">
+                    <img src="https://bouncingdvdlogo.com/" alt="Website Favicon" class="favicon" style="width: 48px; height: 48px; padding-left: 10px; padding-top: 10px; padding-right: 20px;">
+                    <h2 style="color: white; padding-left: 10px; padding-right: 10px;"  class="website-name">Bouncing DVD Logo</h2>
+                    <p style="color: grey; padding-left: 10px; padding-right: 10px;"  class="website-description">You can stare at this for ages😵😵😵</p>
+                </div>
+                <div style="padding-left: 10px; padding-bottom: 10px;"class="website-button">
+                    <a href="https://bouncingdvdlogo.com/" class="btn btn-outline-primary">Visit Website</a>
+                </div>
+            </div><br>
+            <!-- Website Entry 3 -->
+            <div style="background-color: #262626; border-radius: 10px; padding-right: 20px;" class="website-entry">
+                <div class="website-details">
+                    <img src="https://www.opautoclicker.com/" alt="Website Favicon" class="favicon" style="width: 48px; height: 48px; padding-left: 10px; padding-top: 10px; padding-right: 20px;">
+                    <h2 style="color: white; padding-left: 10px; padding-right: 10px;"  class="website-name">OP Auto Clicker</h2>
+                    <p style="color: grey; padding-left: 10px; padding-right: 10px;"  class="website-description">A popular auto clicker, with all the features you could ask for</p>
+                </div>
+                <div style="padding-left: 10px; padding-bottom: 10px; class="website-button">
+                    <a href="https://www.opautoclicker.com/" class="btn btn-outline-primary">Visit Website</a>
+                </div>
+            </div><br>
             
-            <!-- Widget 2 -->
-            <div class="col-md-4">
-                <div class="widget-container">
-                    <img src="widget2_banner.jpg" alt="Website Banner" class="widget-banner">
-                    <h2 class="website-name">Website Name 2</h2>
-                    <p class="website-description">
-                        Description of the website goes here. You can provide a brief overview of what the website is about.
-                    </p>
-                    <a href="#" class="visit-button">Visit Website</a>
-                    <p class="creator-name">Created by: Creator Name 2</p>
+            <!-- Website Entry 4 -->
+            <div style="background-color: #262626; border-radius: 10px; padding-right: 20px;" class="website-entry">
+                <div class="website-details">
+                    <img src="https://chrome.google.com/webstore/category/extensions" alt="Website Favicon" class="favicon" style="width: 48px; height: 48px; padding-left: 10px; padding-top: 10px; padding-right: 20px;">
+                    <h2 style="color: white; padding-left: 10px; padding-right: 10px;"  class="website-name">Chrome Web Store</h2>
+                    <p style="color: grey; padding-left: 10px; padding-right: 10px;"  class="website-description">An app store for Google Chrome. Get addons, ad blockers and much more!</p>
                 </div>
-            </div>
+                <div style="padding-left: 10px; padding-bottom: 10px; class="website-button">
+                    <a href="https://chrome.google.com/webstore/category/extensions" class="btn btn-outline-primary">Visit Website</a>
+                </div>
+            </div><br>
 
-            <!-- Add more widgets here as needed -->
+            <!-- Website Entry 5 -->
+            <div style="background-color: #262626; border-radius: 10px; padding-right: 20px;" class="website-entry">
+                <div class="website-details">
+                    <img src="https://www.chat.openai.com/" alt="Website Favicon" class="favicon" style="width: 48px; height: 48px; padding-left: 10px; padding-top: 10px; padding-right: 20px;">
+                    <h2 style="color: white; padding-left: 10px; padding-right: 10px;"  class="website-name">ChatGPT</h2>
+                    <p style="color: grey; padding-left: 10px; padding-right: 10px;"  class="website-description">ChatGPT is an AI chatbot that can answer any of your questions!</p>
+                </div>
+                <div style="padding-left: 10px; padding-bottom: 10px; class="website-button">
+                    <a href="https://www.chat.openai.com/" class="btn btn-outline-primary">Visit Website</a>
+                </div>
+            </div><br>            
+    
+            <!-- Add more website entries here as needed -->
         </div>
     </div>
+    
+        <script>
+            // JavaScript to fetch the favicons dynamically
+            const websiteUrls = [
+                "https://www.windows93.net/",
+                "https://bouncingdvdlogo.com/",
+                "https://www.opautoclicker.com/",
+                "https://www.chrome.google.com/webstore/category/extensions",
+                "https://www.chat.openai.com/",
+
+                // Add more website URLs as needed
+            ];
+    
+            // Loop through the website URLs and fetch the favicons
+            const faviconImgs = document.querySelectorAll('.favicon');
+            for (let i = 0; i < websiteUrls.length; i++) {
+                const websiteUrl = websiteUrls[i];
+                const faviconUrl = `https://www.google.com/s2/favicons?sz=64&domain=${websiteUrl}`;
+                faviconImgs[i].src = faviconUrl;
+            }
+        </script>
+ 
 </body>
+        </section>
+    </main>
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.3/dist/umd/popper.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+<footer style="position: fixed; bottom: 0; left: 0; width: 100%; background-color: #000; color: #fff; padding: 2px 0; font-family: 'Lexend', sans-serif;">
+    <center>
+    <div>
+        <img src="ra10logobigger.png" alt="Your Logo" style="display: inline-block; height: 50px;"><br>
+    </div>
+    <div style="font-size: 10px;">
+        2023 SkamHub
+    </div>
+    <a style="font-size: 10px; color: white;" href="https://sites.google.com/view/ra10studios">
+        2023 ReturnAlt10 Studios
+    </a></center><br>
+    <div style="font-size: 10px; padding-left: 55px; color: blue; font-size: 12px;">
+        Created by the SkamHub Team.
+    </div>
+</footer>
 </html>
