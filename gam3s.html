@@ -1,35 +1,93 @@
-<html>
-    <body>
-        <div class="container">
-            <div class="row">
-                <!-- Widget 1 -->
-                <div class="col-md-4">
-                    <div class="widget-container">
-                        <img src="widget1_banner.jpg" alt="Website Banner" class="widget-banner">
-                        <h2 class="website-name">Website Name 1</h2>
-                        <p class="website-description">
-                            Description of the website goes here. You can provide a brief overview of what the website is about.
-                        </p>
-                        <a href="#" class="visit-button">Visit Website</a>
-                        <p class="creator-name">Created by: Creator Name 1</p>
-                    </div>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Website Widget</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <style>
+        .widget-container {
+            background: linear-gradient(to bottom, #333, #000);
+            border-radius: 10px;
+            padding: 20px;
+            text-align: center;
+            margin: 10px; /* Adjust margin between widgets as needed */
+        }
+
+        .widget-banner {
+            border-top-left-radius: 10px;
+            border-top-right-radius: 10px;
+            max-width: 100%;
+            max-height: 423px; /* Maximum banner size */
+            width: auto;
+            height: auto;
+        }
+
+        .website-name {
+            font-weight: bold;
+            font-size: 24px;
+            color: #fff;
+        }
+
+        .website-description {
+            font-size: 16px;
+            color: #ccc;
+            text-align: left;
+        }
+
+        .visit-button {
+            display: inline-block;
+            padding: 10px 20px;
+            margin-top: 10px;
+            border: 2px solid #00f; /* Slightly brighter button color */
+            border-radius: 5px;
+            color: #00f; /* Slightly brighter button color */
+            text-decoration: none;
+            transition: background-color 0.3s, color 0.3s;
+        }
+
+        .visit-button:hover {
+            background-color: #00f; /* Slightly brighter button color */
+            color: #fff;
+        }
+
+        .creator-name {
+            font-size: 14px;
+            color: #ccc;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="row">
+            <!-- Widget 1 -->
+            <div class="col-md-4">
+                <div class="widget-container">
+                    <img src="widget1_banner.jpg" alt="Website Banner" class="widget-banner">
+                    <h2 class="website-name">Website Name 1</h2>
+                    <p class="website-description">
+                        Description of the website goes here. You can provide a brief overview of what the website is about.
+                    </p>
+                    <a href="#" class="visit-button">Visit Website</a>
+                    <p class="creator-name">Created by: Creator Name 1</p>
                 </div>
-                
-                <!-- Widget 2 -->
-                <div class="col-md-4">
-                    <div class="widget-container">
-                        <img src="widget2_banner.jpg" alt="Website Banner" class="widget-banner">
-                        <h2 class="website-name">Website Name 2</h2>
-                        <p class="website-description">
-                            Description of the website goes here. You can provide a brief overview of what the website is about.
-                        </p>
-                        <a href="#" class="visit-button">Visit Website</a>
-                        <p class="creator-name">Created by: Creator Name 2</p>
-                    </div>
-                </div>
-    
-                <!-- Add more widgets here as needed -->
             </div>
+            
+            <!-- Widget 2 -->
+            <div class="col-md-4">
+                <div class="widget-container">
+                    <img src="widget2_banner.jpg" alt="Website Banner" class="widget-banner">
+                    <h2 class="website-name">Website Name 2</h2>
+                    <p class="website-description">
+                        Description of the website goes here. You can provide a brief overview of what the website is about.
+                    </p>
+                    <a href="#" class="visit-button">Visit Website</a>
+                    <p class="creator-name">Created by: Creator Name 2</p>
+                </div>
+            </div>
+
+            <!-- Add more widgets here as needed -->
         </div>
-    </body>
+    </div>
+</body>
 </html>
